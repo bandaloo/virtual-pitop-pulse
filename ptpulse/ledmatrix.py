@@ -51,7 +51,8 @@ def doevents():
             if button != None:
                 button.is_pressed = True
         else:
-            button.is_pressed = False
+            if button != None:
+                button.is_pressed = False
 
 
 def main():
