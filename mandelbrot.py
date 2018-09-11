@@ -3,6 +3,8 @@ import math
 from ptpulse import ledmatrix
 
 s_width, s_height = ledmatrix.get_shape()
+if s_width < 20 or s_height < 20:
+    print("The grid size is not big enough to display mandelbrot!")
 
 grid = []
 
