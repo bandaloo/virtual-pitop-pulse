@@ -1,6 +1,8 @@
 from ptpulse import ledmatrix
 from random import randint
 
+# this is a program one of my students wrote while their pitop was broken
+# it kind of looks like modern art so maybe you're supposed to be confused by it
 def paintbackground(red, green, blue):
     for i in range(0, 7):
         for j in range(0, 7):
